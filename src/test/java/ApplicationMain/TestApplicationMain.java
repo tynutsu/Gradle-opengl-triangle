@@ -4,6 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
+import org.mockito.Mock;
 
 /**
  * Created by tynut on 10/09/2016.
@@ -14,8 +15,9 @@ public class TestApplicationMain {
 
     @Test
     public void test() {
-        Assert.assertTrue(ApplicationMain.sayHello().equals("Hello"));
+
     }
+
 }
 
 
