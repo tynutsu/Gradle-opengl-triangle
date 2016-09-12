@@ -9,7 +9,7 @@ repositories {
     mavenCentral()
 }
 
-mainClassName = "ApplicationMain.ApplicationMain"
+mainClassName = "applicationMain.Main"
 
 applicationDefaultJvmArgs = ["-Dgreeting.language=en", "-Djava.library.path=build/libs/"]
 
